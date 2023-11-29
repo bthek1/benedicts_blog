@@ -1,20 +1,85 @@
 project:
   type: website
-
+  preview:
+    port: 5555
+    browser: true
+    
+    
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    
+  pdf: 
+    toc: true
+    documentclass: report
+    lof: false
+    lot: false
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
+    fontfamily: libertinus
+    colorlinks: true
+    
 
 website:
+  image: bird.jpg
+  reader-mode: true
+  back-to-top-navigation: true
+  page-navigation: true
   twitter-card: true
   open-graph: true
   repo-actions: [issue]
+  search:
+    location: navbar
+    type: overlay
+
   navbar:
     background: primary
-    search: true
+    collapse-below: lg
+    left:
+      - text: "Get Started"
+        href: getting_started.ipynb
+      - text: "Tutorial"
+        href: tutorials/tutorial.ipynb
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "Help"
+        menu:
+          - text: "Report an Issue"
+            icon: bug
+            href: "https://github.com/bthek1/benedicts_blog/issues"
+          - text: "Fast.ai Forum"
+            icon: chat-right-text
+            href: "https://github.com/bthek1/benedicts_blog.git"
+          - text: "FAQ"
+            icon: question-circle
+            href: "https://github.com/bthek1/benedicts_blog.git"
+    right:
+      - icon: github
+        href: "https://github.com/bthek1/benedicts_blog.git"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/benedict-thekkel/"
+        aria-label: Fast.ai Twitter
   sidebar:
     style: floating
+    contents:
+      - index.ipynb
+      - section: ML
+        contents: "https://github.com/bthek1/fastAIcourse.git"
+        
+  page-footer:
+    center: 
+      - text: "About"
+        href: about.qmd
+      - text: "License"
+        href: license.qmd
+      - text: "Trademark"
+        href: trademark.qmd
+  comments: 
+    utterances:
+      repo: quarto-dev/quarto-web
 
 metadata-files: [nbdev.yml, sidebar.yml]
