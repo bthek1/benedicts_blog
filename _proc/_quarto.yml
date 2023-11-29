@@ -1,7 +1,7 @@
 project:
   type: website
   preview:
-    port: 3000
+    port: 5555
     browser: true
     
     
@@ -10,15 +10,61 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    
+  pdf: 
+    toc: true
+    documentclass: report
+    lof: false
+    lot: false
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
+    fontfamily: libertinus
+    colorlinks: true
+    
 
 website:
+  image: bird.jpg
+  back-to-top-navigation: true
+  page-navigation: true
   twitter-card: true
   open-graph: true
   repo-actions: [issue]
   navbar:
     background: primary
     search: true
+    collapse-below: lg
+    left:
+      - text: "Get Started"
+        href: getting_started.ipynb
+      - text: "Tutorial"
+        href: tutorials/tutorial.ipynb
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "Help"
+        menu:
+          - text: "Report an Issue"
+            icon: bug
+            href: "https://github.com/bthek1/benedicts_blog/issues"
+          - text: "Fast.ai Forum"
+            icon: chat-right-text
+            href: "https://github.com/bthek1/benedicts_blog.git"
+          - text: "FAQ"
+            icon: question-circle
+            href: "https://github.com/bthek1/benedicts_blog.git"
+    right:
+      - icon: github
+        href: "https://github.com/bthek1/benedicts_blog.git"
+      - icon: twitter
+        href: https://twitter.com/fastdotai
+        aria-label: Fast.ai Twitter
   sidebar:
     style: floating
+    contents:
+      - index.ipynb
+      - section: Lessons
+        contents: "*.ipynb"
+
 
 metadata-files: [nbdev.yml, sidebar.yml]
