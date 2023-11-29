@@ -1,6 +1,10 @@
 project:
   type: website
-
+  preview:
+    port: 3000
+    browser: true
+    
+    
 format:
   html:
     theme: cosmo
