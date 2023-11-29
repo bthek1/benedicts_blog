@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://bthek1.github.io',
                 'git_url': 'https://github.com/bthek1/benedicts_blog',
                 'lib_path': 'benedicts_blog'},
-  'syms': {'benedicts_blog.core': {'benedicts_blog.core.foo': ('core.html#foo', 'benedicts_blog/core.py')}}}
+  'syms': {'benedicts_blog.core': {'benedicts_blog.core.foo': ('posts/core.html#foo', 'benedicts_blog/core.py')}}}

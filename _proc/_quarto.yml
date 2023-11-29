@@ -26,14 +26,18 @@ format:
 
 website:
   image: bird.jpg
+  reader-mode: true
   back-to-top-navigation: true
   page-navigation: true
   twitter-card: true
   open-graph: true
   repo-actions: [issue]
+  search:
+    location: navbar
+    type: overlay
+
   navbar:
     background: primary
-    search: true
     collapse-below: lg
     left:
       - text: "Get Started"
@@ -56,8 +60,8 @@ website:
     right:
       - icon: github
         href: "https://github.com/bthek1/benedicts_blog.git"
-      - icon: twitter
-        href: https://twitter.com/fastdotai
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/benedict-thekkel/"
         aria-label: Fast.ai Twitter
   sidebar:
     style: floating
@@ -65,6 +69,17 @@ website:
       - index.ipynb
       - section: Lessons
         contents: "*.ipynb"
-
+        
+  page-footer:
+    center: 
+      - text: "About"
+        href: about.qmd
+      - text: "License"
+        href: license.qmd
+      - text: "Trademark"
+        href: trademark.qmd
+  comments: 
+    utterances:
+      repo: quarto-dev/quarto-web
 
 metadata-files: [nbdev.yml, sidebar.yml]
