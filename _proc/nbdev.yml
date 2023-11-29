@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "benedicts_blog"
+  site-url: "https://bthek1.github.io/benedicts_blog"
+  description: "Personal Blog"
+  repo-branch: main
+  repo-url: "https://github.com/bthek1/benedicts_blog"
