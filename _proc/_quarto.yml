@@ -67,8 +67,8 @@ website:
     style: floating
     contents:
       - index.ipynb
-      - section: Lessons
-        contents: "*.ipynb"
+      - section: ML
+        contents: "https://github.com/bthek1/fastAIcourse.git"
         
   page-footer:
     center: 
