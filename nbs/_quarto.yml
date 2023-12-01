@@ -22,6 +22,7 @@ website:
     logo: "bird.jpg"
     logo-alt: "Quarto logo."
     collapse-below: lg
+    title: false
     left:
       - text: "Blog"
         href: https://bthek1.github.io/benedicts_blog/
