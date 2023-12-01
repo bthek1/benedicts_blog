@@ -82,17 +82,29 @@ website:
     style: "floating"
     collapse-level: 2
     align: left
-    - section: "ML"
-      href: "00_ML.ipynb"
-      contents:
-      - docs/get-started/index.qmd
-      - text: "Fast AI Setup"
-        href: https://bthek1.github.io/FastAISetup/
-      - text: " Fast AI course"
-        href: https://bthek1.github.io/fastAIcourse/
-      - text: "Machine Learning course"
-        href: https://bthek1.github.io/ML/
-
+    contents:
+      - section: "ML"
+        href: "00_ML.ipynb"
+        contents:
+        - text: "Fast AI Setup"
+          href: https://bthek1.github.io/FastAISetup/
+        - text: " Fast AI course"
+          href: https://bthek1.github.io/fastAIcourse/
+        - text: "Machine Learning course"
+          href: https://bthek1.github.io/ML/
+          
+      - section: "Web Development"
+        href: "01_WebDevelopment.ipynb"
+        contents:
+        - text: "Documentation"
+          href: https://bthek1.github.io/webdevelopment_doc/
+        - text: "React"
+          href: https://bthek1.github.io/webdevelopment_doc/React/react.html
+        - text: "Django"
+          href: https://bthek1.github.io/webdevelopment_doc/django.html
+          
+      - section: "Blog"
+        href: "02_Blog.ipynb"
 
       
 format:
@@ -108,4 +120,4 @@ format:
       body-width: 900px
       margin-width: 300px
 
-metadata-files: [nbdev.yml, sidebar.yml]
+metadata-files: [nbdev.yml]

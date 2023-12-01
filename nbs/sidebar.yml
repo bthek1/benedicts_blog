@@ -1,12 +1,10 @@
 website:
   sidebar:
     contents:
+      - 00_ML.ipynb
       - 01_WebDevelopment.ipynb
       - 02_Resume.ipynb
       - Index.ipynb
-      - section: ML
-        contents: []
-        href: ML/index.ipynb
       - section: posts
         contents:
           - section: ML
