@@ -5,7 +5,6 @@ project:
     browser: true
 
     
-
 website:
   title: "Benedict's Blog"
   image: "bird.jpg"
@@ -28,7 +27,7 @@ website:
     collapse-below: lg
     left:
       - text: "ML"
-        href: "00_ML.ipynb"
+        href: "ML/index.ipynb"
       - text: "Web Development"
         href: "01_WebDevelopment.ipynb"
       - text: "Blog"
@@ -79,22 +78,22 @@ website:
         
         
   sidebar:
-    - id: ML
-      title: "Get Started"
-      style: "floating"
-      collapse-level: 2
-      align: left
+    title: "ML"
+    style: "floating"
+    collapse-level: 2
+    align: left
+    - section: "ML"
+      href: "00_ML.ipynb"
       contents:
-        - docs/get-started/index.qmd
-        - text: "Tutorial: Hello, Quarto"
-          href: docs/get-started/hello/
-        - text: "Tutorial: Computations"
-          href: docs/get-started/computations/
-        - text: "Tutorial: Authoring"
-          href: docs/get-started/authoring/
+      - docs/get-started/index.qmd
+      - text: "Fast AI Setup"
+        href: https://bthek1.github.io/FastAISetup/
+      - text: " Fast AI course"
+        href: https://bthek1.github.io/fastAIcourse/
+      - text: "Machine Learning course"
+        href: https://bthek1.github.io/ML/
 
-        
-      
+
       
 format:
   html:

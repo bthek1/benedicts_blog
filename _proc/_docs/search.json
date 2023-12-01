@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "ML/index.html",
+    "href": "ML/index.html",
+    "title": "ML",
+    "section": "",
+    "text": "You can review the following documents for additional information:\nLearn more about Quarto here.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "01_WebDevelopment.html",
+    "href": "01_WebDevelopment.html",
+    "title": "Web Development",
+    "section": "",
+    "text": "You can review the following documents for additional information:\nLearn more about Quarto here.\n\n\n\n Back to top"
+  },
+  {
     "objectID": "posts/ML/fastaisetup.html",
     "href": "posts/ML/fastaisetup.html",
     "title": "Fast AI Setup Guide",
@@ -21,27 +35,6 @@
     "text": "foo\n\n foo ()\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ML",
-    "section": "",
-    "text": "You can review the following documents for additional information:\nLearn more about Quarto here.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "ML.html",
-    "href": "ML.html",
-    "title": "ML",
-    "section": "",
-    "text": "You can review the following documents for additional information:\nLearn more about Quarto here.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Web Development.html",
-    "href": "Web Development.html",
-    "title": "Web Development",
-    "section": "",
-    "text": "You can review the following documents for additional information:\nLearn more about Quarto here.\n\n\n\n Back to top"
-  },
-  {
     "objectID": "02_Resume.html",
     "href": "02_Resume.html",
     "title": "Blog",
@@ -49,10 +42,10 @@
     "text": "You can review the following documents for additional information:\nLearn more about Quarto here.\n\n\n\n Back to top"
   },
   {
-    "objectID": "01_WebDevelopment.html",
-    "href": "01_WebDevelopment.html",
-    "title": "Web Development",
+    "objectID": "Index.html",
+    "href": "Index.html",
+    "title": "Benedicts Blog",
     "section": "",
-    "text": "You can review the following documents for additional information:\nLearn more about Quarto here.\n\n\n\n Back to top"
+    "text": "You can review the following documents for additional information:\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nFast AI Course doc\n\n\n\n\n\nDocumentation of AI course\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nML Course\n\n\n\n\n\nCovering all major concepts in Machine Learning\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFast AI Setup Guide\n\n\n\n\n\nFast AI Setup Guide\n\n\n\n\n \n\n\n\n\nNo matching items\n\n\nLearn more about Quarto here.\n\n\n\n\n Back to top"
   }
 ]
