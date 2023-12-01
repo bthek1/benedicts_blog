@@ -18,7 +18,7 @@ website:
     type: overlay
 
   navbar:
-    background: light
+    background: dark
     logo: "bird.jpg"
     logo-alt: "Quarto logo."
     collapse-below: lg
@@ -133,8 +133,8 @@ format:
   html:
     toc: true
     theme:
-      light: flatly
       dark: darkly
+      light: flatly
     code-copy: true
     code-overflow: wrap
     css: styles.css

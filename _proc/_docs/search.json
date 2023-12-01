@@ -21,6 +21,13 @@
     "text": "foo\n\n foo ()\n\n\n\n\n\n Back to top"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Benedicts Blog",
+    "section": "",
+    "text": "You can review the following documents for additional information:\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nML Course\n\n\n\n\n\nCovering all major concepts in Machine Learning\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFast AI Setup Guide\n\n\n\n\n\nFast AI Setup Guide\n\n\n\n\n \n\n\n\n\nNo matching items\n\n\nTo do: - add logo - fix image link - add posts - add reverse links from other notebooks\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "posts/fastaisetup.html",
     "href": "posts/fastaisetup.html",
     "title": "Fast AI Setup Guide",
@@ -33,12 +40,5 @@
     "title": "ML",
     "section": "",
     "text": "You can review the following documents for additional information:\nLearn more about Quarto here.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Benedicts Blog",
-    "section": "",
-    "text": "You can review the following documents for additional information:\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nML Course\n\n\n\n\n\nCovering all major concepts in Machine Learning\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nFast AI Setup Guide\n\n\n\n\n\nFast AI Setup Guide\n\n\n\n\n \n\n\n\n\nNo matching items\n\n\nTo do: - add logo - fix image link - add posts - add reverse links from other notebooks\n\n\n\n\n Back to top"
   }
 ]
