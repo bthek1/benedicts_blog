@@ -3,12 +3,9 @@ website:
     contents:
       - 00_ML.ipynb
       - 01_WebDevelopment.ipynb
-      - 02_Resume.ipynb
+      - 02_Blog.ipynb
       - Index.ipynb
       - section: posts
         contents:
-          - section: ML
-            contents:
-              - posts/ML/00_FastAISetup.ipynb
-              - posts/ML/01_fastAIcourse.ipynb
-              - posts/ML/02_ML.ipynb
+          - posts/00_FastAISetup.ipynb
+          - posts/02_ML.ipynb

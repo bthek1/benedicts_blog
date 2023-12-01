@@ -26,12 +26,8 @@ website:
     title: false
     collapse-below: lg
     left:
-      - text: "ML"
-        href: "ML/index.ipynb"
-      - text: "Web Development"
-        href: "01_WebDevelopment.ipynb"
       - text: "Blog"
-        href: "02_Resume.ipynb"
+        href: "Index.ipynb"
       - text: "Help"
         menu:
           - text: "Report an Issue"
@@ -43,25 +39,25 @@ website:
 
     tools:
       - icon: github
-        href: https://github.com/bthek1/benedicts_blog.git
+        href: "https://github.com/bthek1/benedicts_blog.git"
         aria-label: Github
       - icon: linkedin
-        href: https://www.linkedin.com/in/benedict-thekkel/
+        href: "https://www.linkedin.com/in/benedict-thekkel/"
         aria-label: Linkedin
-      - icon: mail
-        href: https://www.linkedin.com/in/benedict-thekkel/
-        aria-label: Mail
+
 
   page-footer:
     center:
       - text: "About"
-        href: about.qmd
+        href: "https://bthek1.github.io/benedicts_blog/Index.html"
       - text: "FAQ"
-        href: docs/faq/index.qmd
+        href: "https://bthek1.github.io/benedicts_blog/Index.html"
       - text: "License"
-        href: license.qmd
+        href: "https://bthek1.github.io/benedicts_blog/Index.html"
       - text: "Trademark"
-        href: trademark.qmd
+        href: "https://bthek1.github.io/benedicts_blog/Index.html"
+        
+        
     right:
       - icon: github
         href: "https://github.com/bthek1/benedicts_blog.git"
@@ -69,9 +65,7 @@ website:
       - icon: linkedin
         href: "https://www.linkedin.com/in/benedict-thekkel/"
         aria-label: Linkedin
-      - icon: mail
-        href: "https://www.linkedin.com/in/benedict-thekkel/"
-        aria-label: Mail
+
   comments: 
     utterances:
       repo: quarto-dev/quarto-web
@@ -83,17 +77,24 @@ website:
     collapse-level: 2
     align: left
     contents:
-      - section: "ML"
-        href: "00_ML.ipynb"
+      - section: "AI"
         contents:
         - text: "Fast AI Setup"
           href: https://bthek1.github.io/FastAISetup/
         - text: " Fast AI course"
           href: https://bthek1.github.io/fastAIcourse/
+          
+      - section: "ML"
+        contents:
         - text: "Machine Learning course"
           href: https://bthek1.github.io/ML/
+          
+      - section: "Timeseries"    
+        contents:
+        - text: "Time series course"
+          href: https://bthek1.github.io/TimeSeriesML/
+          
       - section: "Web Development"
-        href: "00_ML.ipynb"
         contents:
         - text: "Documentation"
           href: https://bthek1.github.io/webdevelopment_doc/

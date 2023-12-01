@@ -2,6 +2,9 @@
   {
     "listing": "/Index.html",
     "items": [
+      "/posts/fastaicourse.html",
+      "/posts/ml.html",
+      "/posts/fastaisetup.html",
       "/posts/ML/fastaicourse.html",
       "/posts/ML/ml.html",
       "/posts/ML/fastaisetup.html"
