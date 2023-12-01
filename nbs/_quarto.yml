@@ -28,9 +28,9 @@ website:
     background: primary
     collapse-below: lg
     left:
-      - text: "Get Started"
+      - text: "ML"
         href: getting_started.ipynb
-      - text: "Tutorial"
+      - text: "Web Development"
         href: tutorials/tutorial.ipynb
       - text: "Blog"
         href: blog/index.qmd
@@ -42,13 +42,14 @@ website:
           - text: "Fast.ai Forum"
             icon: chat-right-text
             href: "https://github.com/bthek1/benedicts_blog.git"
-          - text: "FAQ"
-            icon: question-circle
-            href: "https://github.com/bthek1/benedicts_blog.git"
+
     right:
       - icon: github
         href: "https://github.com/bthek1/benedicts_blog.git"
       - icon: linkedin
+        href: "https://www.linkedin.com/in/benedict-thekkel/"
+        aria-label: Fast.ai Twitter
+      - icon: mail
         href: "https://www.linkedin.com/in/benedict-thekkel/"
         aria-label: Fast.ai Twitter
   sidebar:

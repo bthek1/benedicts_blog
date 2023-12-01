@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Documentation of AI course">
 
-<title>benedicts_blog - Benedicts Blog</title>
+<title>benedicts_blog - Fast AI Course doc</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./posts/fastaisetup.html" rel="next">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../posts/ml.html" rel="next">
+<link href="../posts/fastaisetup.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,45 +62,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-sample-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-sample-listings'] = new List('listing-sample-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="benedicts_blog - Benedicts Blog">
-<meta property="og:description" content="">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="benedicts_blog - Fast AI Course doc">
+<meta property="og:description" content="Documentation of AI course">
 <meta property="og:site-name" content="benedicts_blog">
-<meta name="twitter:title" content="benedicts_blog - Benedicts Blog">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="benedicts_blog - Fast AI Course doc">
+<meta name="twitter:description" content="Documentation of AI course">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -111,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">benedicts_blog</span>
     </a>
   </div>
@@ -122,15 +91,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./getting_started.ipynb" rel="" target="">
+    <a class="nav-link" href="../getting_started.ipynb" rel="" target="">
  <span class="menu-text">ML</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tutorials/tutorial.ipynb" rel="" target="">
+    <a class="nav-link" href="../tutorials/tutorial.ipynb" rel="" target="">
  <span class="menu-text">Web Development</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.qmd" rel="" target="">
+    <a class="nav-link" href="../blog/index.qmd" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -183,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Benedicts Blog</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/fastaisetup.html">posts</a></li><li class="breadcrumb-item"><a href="../posts/fastaicourse.html">Fast AI Course doc</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -197,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Benedicts Blog</span></a>
   </div>
 </li>
@@ -216,19 +185,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/fastaisetup.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/fastaisetup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fast AI Setup Guide</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/fastaicourse.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/fastaicourse.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Fast AI Course doc</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/ml.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts/ml.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">ML Course</span></a>
   </div>
 </li>
@@ -240,16 +209,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#foo" id="toc-foo" class="nav-link active" data-scroll-target="#foo">foo</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/bthek1/benedicts_blog/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Benedicts Blog</h1>
+<h1 class="title">Fast AI Course doc</h1>
 </div>
 
+<div>
+  <div class="description">
+    Documentation of AI course
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -263,81 +243,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->
-<p>You can review the following documents for additional information:</p>
-<div id="listing-sample-listings" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1701405959686" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/fastaicourse.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/fastaicourse.html">
-<h3 class="no-anchor listing-title">
-Fast AI Course doc
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Documentation of AI course</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/fastaicourse.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1701405959696" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/ml.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/ml.html">
-<h3 class="no-anchor listing-title">
-ML Course
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Covering all major concepts in Machine Learning</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/ml.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1701405959686" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/fastaisetup.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/fastaisetup.html">
-<h3 class="no-anchor listing-title">
-Fast AI Setup Guide
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Fast AI Setup Guide</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/fastaisetup.html"> </a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p>Learn more about Quarto <a href="https://www.quarto.com">here</a>.</p>
+<hr>
+<section id="foo" class="level3">
+<h3 class="anchored" data-anchor-id="foo">foo</h3>
+<blockquote class="blockquote">
+<pre><code> foo ()</code></pre>
+</blockquote>
 
 
-
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -577,10 +491,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../posts/fastaisetup.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Fast AI Setup Guide</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./posts/fastaisetup.html" class="pagination-link">
-        <span class="nav-page-text">Fast AI Setup Guide</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../posts/ml.html" class="pagination-link">
+        <span class="nav-page-text">ML Course</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -593,16 +510,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./about.qmd">About</a>
+    <a class="nav-link" href="../about.qmd">About</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./license.qmd">License</a>
+    <a class="nav-link" href="../license.qmd">License</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./trademark.qmd">Trademark</a>
+    <a class="nav-link" href="../trademark.qmd">Trademark</a>
   </li>  
 </ul>
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/bthek1/benedicts_blog/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    </div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
