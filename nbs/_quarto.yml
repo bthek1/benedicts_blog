@@ -11,18 +11,6 @@ format:
     css: styles.css
     toc: true
     
-  pdf: 
-    toc: true
-    documentclass: report
-    lof: false
-    lot: false
-    geometry:
-      - top=30mm
-      - left=20mm
-      - heightrounded
-    fontfamily: libertinus
-    colorlinks: true
-    
 
 website:
   image: bird.jpg
