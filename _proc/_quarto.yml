@@ -1,11 +1,10 @@
 project:
   type: website
-  preview:
-    port: 5555
-    browser: true
+
 
     
 website:
+  title: "Benedict's Blog"
   image: "bird.jpg"
   favicon: "bird.jpg"
   reader-mode: true
@@ -24,9 +23,11 @@ website:
     background: light
     logo: "bird.jpg"
     logo-alt: "Quarto logo."
-    title: "Benedict's Blog"
+    href: https://bthek1.github.io/FastAISetup/
     collapse-below: lg
     left:
+      - text: "Blog"
+        href: https://bthek1.github.io/benedicts_blog/
       - text: "AI"
         menu:
         - text: "Fast AI Setup"
@@ -76,13 +77,13 @@ website:
   page-footer:
     center:
       - text: "About"
-        href: "Index.ipynb"
+        href: "index.ipynb"
       - text: "FAQ"
         href: "https://github.com/bthek1/benedicts_blog/wiki"    
       - text: "License"
         href: "https://bthek1.github.io/benedicts_blog/Index.html"
       - text: "Trademark"
-        href: "Index.ipynb"
+        href: "index.ipynb"
         
         
     right:
@@ -135,7 +136,8 @@ format:
   html:
     toc: true
     theme:
-      light: [cosmo, theme.scss]
+      light: flatly
+      dark: darkly
     code-copy: true
     code-overflow: wrap
     css: styles.css
