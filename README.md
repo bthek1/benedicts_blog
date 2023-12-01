@@ -12,5 +12,4 @@ a a a a
 
 </div>
 
-To do: - add logo - fix image link - add posts - add reverse links from
-other notebooks
+To do: - add logo - fix image link - add posts
