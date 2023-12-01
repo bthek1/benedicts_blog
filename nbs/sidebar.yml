@@ -1,10 +1,10 @@
 website:
   sidebar:
     contents:
+      - index.ipynb
       - 00_ML.ipynb
       - 01_WebDevelopment.ipynb
       - 02_Blog.ipynb
-      - Index.ipynb
       - section: posts
         contents:
           - posts/00_FastAISetup.ipynb

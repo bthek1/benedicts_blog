@@ -6,7 +6,6 @@ project:
 
     
 website:
-  title: "Benedict's Blog"
   image: "bird.jpg"
   favicon: "bird.jpg"
   reader-mode: true
@@ -14,6 +13,8 @@ website:
   page-navigation: true
   twitter-card: true
   open-graph: true
+  repo-url: "https://bthek1.github.io/benedicts_blog/Index.html"
+  issue-url: "https://github.com/quarto-dev/quarto-cli/issues/new/choose"
   repo-actions: [edit, issue]
   search:
     location: navbar
@@ -23,20 +24,46 @@ website:
     background: light
     logo: "bird.jpg"
     logo-alt: "Quarto logo."
-    title: false
+    title: "Benedict's Blog"
     collapse-below: lg
     left:
-      - text: "Blog"
-        href: "Index.ipynb"
+      - text: "AI"
+        menu:
+        - text: "Fast AI Setup"
+          href: https://bthek1.github.io/FastAISetup/
+        - text: " Fast AI course"
+          href: https://bthek1.github.io/fastAIcourse/
+          
+      - text: "ML"
+        menu:
+        - text: "Machine Learning course"
+          href: https://bthek1.github.io/ML/
+          
+      - text: "Timeseries"    
+        menu:
+        - text: "Time series course"
+          href: https://bthek1.github.io/TimeSeriesML/
+          
+      - text: "Web Development"
+        menu:
+        - text: "Documentation"
+          href: https://bthek1.github.io/webdevelopment_doc/
+        - text: "React"
+          href: https://bthek1.github.io/webdevelopment_doc/React/react.html
+        - text: "Django"
+          href: https://bthek1.github.io/webdevelopment_doc/django.html
       - text: "Help"
         menu:
-          - text: "Report an Issue"
+          - text: "Report a Bug"
             icon: "bug"
-            href: "https://github.com/bthek1/benedicts_blog/issues"
+            href: "https://github.com/quarto-dev/quarto-cli/issues/new/choose"
           - text: "Ask a Question"
             icon: "chat-right-text"
-            href: "https://github.com/bthek1/benedicts_blog/wiki"        
-
+            href: "https://github.com/quarto-dev/quarto-cli/issues/new/choose"
+          - text: "FAQ"
+            icon: "question-circle"
+            href: "https://github.com/quarto-dev/quarto-cli/issues/new/choose"
+          
     tools:
       - icon: github
         href: "https://github.com/bthek1/benedicts_blog.git"
@@ -49,13 +76,13 @@ website:
   page-footer:
     center:
       - text: "About"
-        href: "https://bthek1.github.io/benedicts_blog/Index.html"
+        href: "Index.ipynb"
       - text: "FAQ"
-        href: "https://bthek1.github.io/benedicts_blog/Index.html"
+        href: "https://github.com/bthek1/benedicts_blog/wiki"    
       - text: "License"
         href: "https://bthek1.github.io/benedicts_blog/Index.html"
       - text: "Trademark"
-        href: "https://bthek1.github.io/benedicts_blog/Index.html"
+        href: "Index.ipynb"
         
         
     right:

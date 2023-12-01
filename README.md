@@ -12,4 +12,5 @@ a a a a
 
 </div>
 
-Learn more about Quarto [here](https://www.quarto.com).
+To do: - add logo - fix image link - add posts - add reverse links from
+other notebooks
