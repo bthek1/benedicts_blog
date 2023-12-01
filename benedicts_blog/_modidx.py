@@ -5,6 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://bthek1.github.io',
                 'git_url': 'https://github.com/bthek1/benedicts_blog',
                 'lib_path': 'benedicts_blog'},
-  'syms': { 'benedicts_blog.ML': {'benedicts_blog.ML.foo': ('posts/ml.html#foo', 'benedicts_blog/ML.py')},
+  'syms': { 'benedicts_blog.ML': {'benedicts_blog.ML.foo': ('posts/ML/ml.html#foo', 'benedicts_blog/ML.py')},
             'benedicts_blog.core': {'benedicts_blog.core.foo': ('posts/core.html#foo', 'benedicts_blog/core.py')},
-            'benedicts_blog.fastAI': {'benedicts_blog.fastAI.foo': ('posts/fastaicourse.html#foo', 'benedicts_blog/fastAI.py')}}}
+            'benedicts_blog.fastAI': {'benedicts_blog.fastAI.foo': ('posts/ML/fastaicourse.html#foo', 'benedicts_blog/fastAI.py')}}}
