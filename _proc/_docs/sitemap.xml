@@ -1,3 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/posts/ML/fastaisetup.html</loc>
+    <lastmod>2023-12-01T05:29:54.886Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/posts/ML/fastaicourse.html</loc>
+    <lastmod>2023-12-01T04:56:13.626Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/posts/ML/ml.html</loc>
+    <lastmod>2023-12-01T04:56:13.866Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/index.html</loc>
+    <lastmod>2023-12-01T05:29:54.016Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/ML.html</loc>
+    <lastmod>2023-12-01T05:34:33.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/Web Development.html</loc>
+    <lastmod>2023-12-01T05:32:23.206Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/02_Resume.html</loc>
+    <lastmod>2023-12-01T05:38:27.456Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/01_WebDevelopment.html</loc>
+    <lastmod>2023-12-01T05:38:18.296Z</lastmod>
+  </url>
 </urlset>

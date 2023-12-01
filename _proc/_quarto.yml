@@ -3,72 +3,110 @@ project:
   preview:
     port: 5555
     browser: true
-    
-    
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+
     
 
 website:
-  image: bird.jpg
+  title: "Benedict's Blog"
+  image: "bird.jpg"
+  favicon: "bird.jpg"
   reader-mode: true
   back-to-top-navigation: true
   page-navigation: true
   twitter-card: true
   open-graph: true
-  repo-actions: [issue]
+  repo-actions: [edit, issue]
   search:
     location: navbar
     type: overlay
 
   navbar:
-    background: primary
+    background: light
+    logo: "bird.jpg"
+    logo-alt: "Quarto logo."
+    title: false
     collapse-below: lg
     left:
       - text: "ML"
-        href: getting_started.ipynb
+        href: "00_ML.ipynb"
       - text: "Web Development"
-        href: tutorials/tutorial.ipynb
+        href: "01_WebDevelopment.ipynb"
       - text: "Blog"
-        href: blog/index.qmd
+        href: "02_Resume.ipynb"
       - text: "Help"
         menu:
           - text: "Report an Issue"
-            icon: bug
+            icon: "bug"
             href: "https://github.com/bthek1/benedicts_blog/issues"
-          - text: "Fast.ai Forum"
-            icon: chat-right-text
-            href: "https://github.com/bthek1/benedicts_blog.git"
+          - text: "Ask a Question"
+            icon: "chat-right-text"
+            href: "https://github.com/bthek1/benedicts_blog/wiki"        
 
-    right:
+    tools:
       - icon: github
-        href: "https://github.com/bthek1/benedicts_blog.git"
+        href: https://github.com/bthek1/benedicts_blog.git
+        aria-label: Github
       - icon: linkedin
-        href: "https://www.linkedin.com/in/benedict-thekkel/"
-        aria-label: Fast.ai Twitter
+        href: https://www.linkedin.com/in/benedict-thekkel/
+        aria-label: Linkedin
       - icon: mail
-        href: "https://www.linkedin.com/in/benedict-thekkel/"
-        aria-label: Fast.ai Twitter
-  sidebar:
-    style: floating
-    contents:
-      - index.ipynb
-      - section: ML
-        contents: "https://github.com/bthek1/fastAIcourse.git"
-        
+        href: https://www.linkedin.com/in/benedict-thekkel/
+        aria-label: Mail
+
   page-footer:
-    center: 
+    center:
       - text: "About"
         href: about.qmd
+      - text: "FAQ"
+        href: docs/faq/index.qmd
       - text: "License"
         href: license.qmd
       - text: "Trademark"
         href: trademark.qmd
+    right:
+      - icon: github
+        href: "https://github.com/bthek1/benedicts_blog.git"
+        aria-label: Github
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/benedict-thekkel/"
+        aria-label: Linkedin
+      - icon: mail
+        href: "https://www.linkedin.com/in/benedict-thekkel/"
+        aria-label: Mail
   comments: 
     utterances:
       repo: quarto-dev/quarto-web
+        
+        
+  sidebar:
+    - id: ML
+      title: "Get Started"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - docs/get-started/index.qmd
+        - text: "Tutorial: Hello, Quarto"
+          href: docs/get-started/hello/
+        - text: "Tutorial: Computations"
+          href: docs/get-started/computations/
+        - text: "Tutorial: Authoring"
+          href: docs/get-started/authoring/
+
+        
+      
+      
+format:
+  html:
+    toc: true
+    theme:
+      light: [cosmo, theme.scss]
+    code-copy: true
+    code-overflow: wrap
+    css: styles.css
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
 
 metadata-files: [nbdev.yml, sidebar.yml]
