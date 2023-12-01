@@ -1,8 +1,13 @@
 project:
   type: website
 
-
-    
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
 website:
   title: "Benedict's Blog"
   image: "bird.jpg"
@@ -96,52 +101,7 @@ website:
     utterances:
       repo: quarto-dev/quarto-web
         
-        
   sidebar:
-    title: "ML"
-    style: "floating"
-    collapse-level: 2
-    align: left
-    contents:
-      - section: "AI"
-        contents:
-        - text: "Fast AI Setup"
-          href: https://bthek1.github.io/FastAISetup/
-        - text: " Fast AI course"
-          href: https://bthek1.github.io/fastAIcourse/
-          
-      - section: "ML"
-        contents:
-        - text: "Machine Learning course"
-          href: https://bthek1.github.io/ML/
-          
-      - section: "Timeseries"    
-        contents:
-        - text: "Time series course"
-          href: https://bthek1.github.io/TimeSeriesML/
-          
-      - section: "Web Development"
-        contents:
-        - text: "Documentation"
-          href: https://bthek1.github.io/webdevelopment_doc/
-        - text: "React"
-          href: https://bthek1.github.io/webdevelopment_doc/React/react.html
-        - text: "Django"
-          href: https://bthek1.github.io/webdevelopment_doc/django.html
+    style: floating
 
-      
-format:
-  html:
-    toc: true
-    theme:
-      dark: darkly
-      light: flatly
-    code-copy: true
-    code-overflow: wrap
-    css: styles.css
-    grid:
-      sidebar-width: 250px
-      body-width: 900px
-      margin-width: 300px
-
-metadata-files: [nbdev.yml]
+metadata-files: [nbdev.yml, sidebar.yml]
