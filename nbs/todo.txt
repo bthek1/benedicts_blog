@@ -1,0 +1,138 @@
+
+# To Do:
+
+> To Do list
+
+
+## To do
+- [ ] The Forge
+- [ ] FASTAI Course,  MATLAB Course, CSSE - ML topics
+- [ ] Blog page, Resume page
+- [ ] WEBSITE DEVELOPMENT
+- [ ] VISION APP - 3D
+- [ ] 3D Assignment
+- [ ] DOCKER
+
+MATH2001 - 8h
+
+LAWS1100 - 3 weeks
+
+ECON1011 - 8 weeks
+
+FINM1418 - 2 weeks
+ACCT1101 - 2 weeks
+
+ELEC3100 - 9h  
+
+matlab: 61-2-8669-4700 
+
+solar service-1234567890
+solar user-12346578
+
+To do:
+- FASTAI Course
+- Matlab Course
+- CSSE ML topics
+
+- Docker for fastAI
+
+- Fast Pages
+- oracle - web developement - https://www.youtube.com/watch?v=NKc3k7xceT8&ab_channel=CloudTech
+
+- appen - job 
+
+- forage virtual intern
+
+- Vision App - 3d reconstruction/ assignment
+
+
+## Plans
+### Build drone
+ - Arduino nano ble sense
+ - two way communication
+ - use better sensor
+ - buck regulator 5v
+ - draw.io
+ 
+### Job
+ - research project
+ - IT support
+ - Data entry
+ - military
+ - formlabs company 
+ 
+### Trading bot (in processes)
+- predict cycles - FFT
+- machine learning
+ - send messages
+-  TesterStatistics()
+- draw.io
+
+
+### Distance tracking app
+- new phone
+- using focus
+- machine learning
+- speed tracking
+- draw.io 
+
+### integrated marketing
+- facebook
+- insta
+
+
+Knowledge
+skillshare
+masterclass
+brillant
+curiosity stream 
+
+
+### Future plans
+- decentralised cloud
+- keyboard website
+- custom car
+- buy house
+- ecommerise business
+- benedictine
+- solar farm
+- diamond mining
+- gold shop
+- shesha
+- mathgame - wizard 101
+- VR with speed tracking app and hand recognition
+ - image net - A.I competition
+- drone business
+- electro and magnetic motor
+- nano motor (muscle)
+- uni electronics store
+- 3d metal printer
+- aquarium monitor/ blood test
+- cooling cup
+- smart seat
+- 3D mapping space
+- business tv series
+- magnitron - electron mapping
+- command line gpt
+- research papers to website
+    - level 1 - paper to website
+    - link knowledge
+    - english dictionary for llm - llama 
+- Laser project
+  - ABN
+  - website
+  - Products
+    - Source materials
+    - Market
+   
+  - Amazon, facebook marketplace
+  - Scale
+  
+
+- knots - two plains problem
+- DC - line across australia
+- FFT using Polyphase
+- digital speaker system
+- image folding and matrix - 3,4D matrix mulitplication
+- electric circuit to group theory - path of leastresistance
+- light fft, light prism
