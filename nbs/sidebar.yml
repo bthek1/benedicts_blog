@@ -4,5 +4,5 @@ website:
       - index.ipynb
       - section: posts
         contents:
-          - posts/00_FastAISetup.ipynb
-          - posts/02_ML.ipynb
+          - posts/00_Future_Plan.ipynb
+          - posts/02_Future_Map.ipynb
