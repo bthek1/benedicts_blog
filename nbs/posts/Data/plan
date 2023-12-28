@@ -14,13 +14,12 @@ digraph A {
 		phisaver [label=Phisaver]
 		xplainable [label=Xplainable]
 	}
-	Project [label=<
-<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="10" CELLPADDING="10" STYLE = "rounded">
-  <TR><TD PORT="f" BORDER="0" STYLE = "rounded" WIDTH="100" >Project</TD></TR>
-  <TR><TD PORT="InfoAI" STYLE = "rounded" BGCOLOR="#fcbf49" >Information AI</TD></TR>
-  <TR><TD PORT="3D" STYLE = "rounded" BGCOLOR="#fcbf49" >3D vision- modeling AI</TD></TR>
-  <TR><TD PORT="stocks" STYLE = "rounded" BGCOLOR="#fcbf49" >Trading Algo</TD></TR>
-</TABLE>> fillcolor="#fdfcdc" penwidth=0]
+	Project [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="10" CELLPADDING="10" STYLE = "rounded">
+          <TR><TD PORT="f" BORDER="0" STYLE = "rounded" WIDTH="100" >Project</TD></TR>
+          <TR><TD PORT="InfoAI" STYLE = "rounded" BGCOLOR="#fcbf49" >Information AI</TD></TR>
+          <TR><TD PORT="3D" STYLE = "rounded" BGCOLOR="#fcbf49" >3D vision- modeling AI</TD></TR>
+          <TR><TD PORT="stocks" STYLE = "rounded" BGCOLOR="#fcbf49" >Trading Algo</TD></TR>
+        </TABLE>> fillcolor="#fdfcdc" penwidth=0]
 	FASTAI:e -> Thesis:w
 	Thesis:e -> Project:"3D":w
 	phisaver:e -> Flutter:w
