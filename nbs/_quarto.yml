@@ -11,7 +11,7 @@ format:
     
 website:
   title: "ML Tools"
-  image: "Logo.png"
+  image: "Logo.svg"
   favicon: "bird.jpg"
   reader-mode: true
   back-to-top-navigation: true
