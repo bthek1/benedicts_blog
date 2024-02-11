@@ -12,7 +12,7 @@ format:
 website:
   title: "ML Tools"
   image: "Logo.svg"
-  favicon: "favicon.svg"
+  favicon: "favi.svg"
   reader-mode: true
   back-to-top-navigation: true
   page-navigation: true
