@@ -25,7 +25,7 @@ website:
 
   navbar:
     background: dark
-    logo: "bird.jpg"
+    logo: "Logo.svg"
     logo-alt: "Quarto logo."
     collapse-below: lg
     title: false
