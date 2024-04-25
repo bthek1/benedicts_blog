@@ -33,6 +33,6 @@ digraph A {
 	Laser:e -> Project:w
 	Laser:e -> Manufacturer:w
 	Drone:e -> Project:w
-	Drone:e -> Plane:w
+	Drone:e -> Drone:w
 	Drone:e -> Manufacturer:w
 }
