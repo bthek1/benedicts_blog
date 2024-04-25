@@ -4,10 +4,4 @@
 
 <div id="sample-listings">
 
-a
-
-a a a a
-
 </div>
-
-To do: - fix image link - add posts
