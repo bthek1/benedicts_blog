@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/index.html</loc>
+    <lastmod>2024-06-18T03:04:39.916Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/posts/01_Exploring_Deeplearning.html</loc>
+    <lastmod>2024-06-18T03:04:39.972Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/posts/future_plan.html</loc>
+    <lastmod>2024-06-18T03:04:39.948Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/posts/02_Exploring_Machine_Learning.html</loc>
+    <lastmod>2024-06-18T03:04:39.928Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/posts/future_map.html</loc>
+    <lastmod>2024-06-18T03:04:39.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/posts/03_Time_Series_Analysis.html</loc>
+    <lastmod>2024-06-18T03:04:39.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/posts/creating_pypi_library.html</loc>
+    <lastmod>2024-06-18T03:04:39.964Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bthek1.github.io/benedicts_blog/posts/web_development.html</loc>
+    <lastmod>2024-06-18T03:04:39.980Z</lastmod>
+  </url>
+</urlset>
