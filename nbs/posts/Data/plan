@@ -18,7 +18,6 @@ digraph A {
 		fillcolor="#fdfcdc" fontcolor="#003049" label=Intership shape=doublecircle
 		node [fillcolor="#fcbf49" fontcolor="#003049" shape=box]
 		phisaver [label=Phisaver]
-		xplainable [label=Xplainable]
 	}
 	Project [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="10" CELLPADDING="10" STYLE = "rounded">
           <TR><TD PORT="f" BORDER="0" STYLE = "rounded" WIDTH="100" >Project</TD></TR>
@@ -34,7 +33,6 @@ digraph A {
 	Forecasting:e -> Project:stocks:w
 	Flutter:e -> Project:"3D":w
 	Flutter:e -> Thesis:w
-	xplainable:e -> ML:w
 	ML:e -> Project:w
 	Laser:e -> Project:w
 	Laser:e -> Manufacturer:w
